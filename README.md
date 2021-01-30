@@ -10,6 +10,7 @@ IndexTube does not have a complete database of all YouTube videos and depends on
 
 ## Installation ##
 
+Create a database and import indextube.sql to reate de database structure
 Fill config.php with database connection details and YouTube API Key
 Edit crontask.sh and change /path/to/crontask.php with the actual path to the crontask.php file on your server
 Create a crontask entry to run crontask.sh once a day
